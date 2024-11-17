@@ -105,11 +105,13 @@ class SuraAyatAdapter(private var data: List<Ayah>, val listener:AyahAdapterList
     inner class HeaderViewHolder(val binding: SuraHeaderBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind() {
+
             if(sura.surahNumber==9) binding.bsmallahImage.visibility=GONE
             binding.arabicName.text = sura.arabicName
             binding.englishName.text = sura.englishName
-            binding.numberOfVerses.text = sura.numberOfVerses.toString()
-            binding.revelationType.text=sura.revelationType
+            binding.englishName.visibility= VISIBLE
+            binding.numberOfVerses.text = ArabicTranslator.toArabicNumerals(sura.numberOfVerses)
+            binding.revelationType.text=ArabicTranslator.meccanOrMedinan(sura.revelationType)
         }
     }
 
@@ -120,7 +122,7 @@ class SuraAyatAdapter(private var data: List<Ayah>, val listener:AyahAdapterList
                 else{
                 binding.nextArabicName.text=nextSura.arabicName
                 binding.nextEnglishName.text=nextSura.englishName
-                binding.nextNumberOfVerses.text=nextSura.numberOfVerses.toString()
+                binding.nextNumberOfVerses.text=ArabicTranslator.toArabicNumerals(nextSura.numberOfVerses)
                 binding.root.setOnClickListener{
                     listener.goToNextSura(nextSura.surahNumber)
                 }
