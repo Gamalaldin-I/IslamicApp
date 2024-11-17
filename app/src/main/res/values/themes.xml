@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ZekronHakeem" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="background">@color/colorOnPrimary</item>
+        <item name="android:colorSecondary">@color/primary</item>
+        <item name="android:navigationBarColor">@color/colorOnPrimary</item>
+        <item name="colorOnSurface">#335136</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorTertiary">@color/black</item>
+        <item name="colorTertiaryContainer">@color/black</item>
+        <item name="colorOnTertiaryContainer">@color/black</item>
+        <item name="colorError">@color/black</item>
+        <item name="colorErrorContainer">@color/black</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnTertiary">@color/black</item>
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textColorPrimary">@color/primary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSecondaryContainer">@color/background</item>
+        <item name="colorPrimaryDark">@color/background</item>
+        <item name="colorControlActivated">@color/primary</item>
+
+
+    </style>
+    <style name="navBarFontStyle">
+        <item name="fontFamily">@font/tafser</item>
+    </style>
+
+
+
+
+
+</resources>

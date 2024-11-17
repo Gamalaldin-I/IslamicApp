@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/quranBtn"
+        android:icon="@drawable/quran"
+        android:title="القرأن"
+        />
+    <item android:id="@+id/salawatBtn"
+        android:title="الصلاة"
+        android:icon="@drawable/time"/>
+    <item android:id="@+id/qibla"
+        android:icon="@drawable/compass_svgrepo_com"
+        android:title="الأذكار " />
+
+</menu>

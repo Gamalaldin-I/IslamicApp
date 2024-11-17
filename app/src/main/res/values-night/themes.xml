@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ZekronHakeem" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="android:colorBackground">#121319</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textColorSecondary">@color/background</item>
+        <item name="android:textColorPrimary">@color/background</item>
+        <item name="colorSecondaryContainer">#121319</item>
+        <item name="colorPrimary">#63523E</item>
+        <item name="colorPrimaryDark">#63523E</item>
+
+
+
+
+    </style>
+</resources>

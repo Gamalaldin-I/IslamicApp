@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <!--- Light Colors -->
+    <color name="background">#EDE5D7</color>
+    <color name="secondary">#214A3E</color>
+    <color name="primary">#2B8154</color>
+    <color name="specialText">#C5A23B</color>
+    <color name="text">#204E3A</color>
+    <color name="gradient1">#13402B</color>
+    <color name="gradient2">#288C55</color>
+    <color name="selector">#7937C196</color>
+    <color name="cardGradient1">#A62B8154</color>
+    <color name="cardGradient2">@color/gradient1</color>
+    <color name="gradient3">#2AC16F</color>
+    <!--- Dark Colors -->
+    <color name="transparent">#00FF0000</color>
+</resources>
+<!--  <color name="background">#F4EBCF</color>
+    <color name="secondary">#534430</color>
+    <color name="primary">#AA7C3D</color>
+    <color name="specialText">#DDBE4B</color>
+    <color name="text">#30261A</color>
+    <color name="gradient1">#2E2718</color>
+    <color name="gradient2">#A58037</color>
+    <color name="gradient3">#DFC26B</color>-->

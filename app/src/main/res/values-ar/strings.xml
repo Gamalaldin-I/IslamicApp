@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">زكر حكيم</string>
+    <string name="verses">آياتها</string>
+    <string name="quran">القرآن الكريم</string>
+    <string name="last_read"> آخر قراءة </string>
+    <string name="verse">الآية رقم : </string>
+    <string name="night_mode">Night mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark">Dark</string>
+</resources>

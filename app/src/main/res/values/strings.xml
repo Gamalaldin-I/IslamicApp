@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">ZekronHakeem</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="verses">Verses</string>
+    <string name="quran">القرآن الكريم</string>
+    <string name="last_read"> آخر قراءة</string>
+    <string name="verse">الآية رقم : </string>
+    <string name="night_mode">Night mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark">Dark</string>
+</resources>
